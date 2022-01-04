@@ -14,8 +14,8 @@
         overflow: hidden;
 
         .imgContainer {
-            width: 700px;
-            height: 700px;
+            width: 650px;
+            height: 650px;
             background-color: crimson;
             border-radius: 50%;
             display: flex;
@@ -28,7 +28,8 @@
             }
 
             img {
-                height: 90%;
+                height: 85%;
+
 
                 @include mobile {
                     height: 50%;
