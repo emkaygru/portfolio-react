@@ -23,12 +23,15 @@
             justify-content: center;
             float: right;
 
+            @include mobile {
+                align-items: flex-start;
+            }
+
             img {
                 height: 90%;
 
                 @include mobile {
-                    height: 90%;
-                    flex-direction: flex-start;
+                    height: 50%;
                 }
             }
         }
@@ -62,7 +65,6 @@
 
             h2 {
                 font-size: 35px;
-
             }
 
             h3 {
@@ -78,7 +80,7 @@
                 }
 
                 .ityped-cursor {
-                    animation: blink 1s infinite ease-in-out;
+                    animation: blink 1s infinite;
                 }
 
                 @keyframes blink {
@@ -96,7 +98,7 @@
         a {
             position: absolute;
             bottom: 10px;
-            left: 30%;
+            left: 40%;
 
             img {
                 width: 30px;
@@ -109,6 +111,5 @@
                 }
             }
         }
-
     }
 }
