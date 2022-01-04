@@ -3,7 +3,12 @@ import "./Intro.scss";
 export default function intro() {
   return (
     <div className="intro" id="intro">
-      intro
+      <div className="left">
+        <div className="imgContainer">
+          <img src="assets/dance.png" alt="" />
+        </div>
+      </div>
+      <div className="right"></div>
     </div>
   );
 }
