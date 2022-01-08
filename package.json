@@ -45,5 +45,8 @@
   "engines": {
     "node": "16.13.1",
     "npm": "8.3.0"
+  },
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0"
   }
 }
